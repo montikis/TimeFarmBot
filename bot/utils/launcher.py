@@ -25,8 +25,8 @@ start_text = """
 
 Select an action:
 
-    2. Run claimer
-    1. Create session
+    1. Run claimer
+    2. Create session
 """
 
 
