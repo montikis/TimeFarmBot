@@ -15,16 +15,18 @@ from bot.core.registrator import register_sessions
 
 start_text = """
 
-+-------------------------------------+
-|                                     |
-|          TimeFarmCryptoBot          |
-|             by cryptron             |
-|                                     |
-+-------------------------------------+
+  _______                ______                     ____        __ 
+ /_  __(_)___ ___  ___  / ____/___ __________ ___  / __ )____  / /_
+  / / / / __ `__ \/ _ \/ /_  / __ `/ ___/ __ `__ \/ __  / __ \/ __/
+ / / / / / / / / /  __/ __/ / /_/ / /  / / / / / / /_/ / /_/ / /_  
+/_/ /_/_/ /_/ /_/\___/_/    \__,_/_/  /_/ /_/ /_/_____/\____/\__/
+            |             by cryptron             |
+            
+
 Select an action:
 
-    1. Create session
     2. Run claimer
+    1. Create session
 """
 
 
@@ -87,9 +89,9 @@ async def process() -> None:
                 action = int(action)
                 break
 
-    if action == 1:
+    if action == 2:
         await register_sessions()
-    elif action == 2:
+    elif action == 1:
         tg_clients = await get_tg_clients()
 
         await run_tasks(tg_clients=tg_clients)
