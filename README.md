@@ -1,6 +1,6 @@
 
 
-[![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/TimeFarmCryptoBot?start=k0NH5BSlKpT4RaLR)
+[![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/TimeFarmCryptoBot?start=fu7JkYLQx3phqYFY)
 
 #### Подписывайтесь на наш [телеграм канал](https://t.me/scriptron). Там будут новости о новый ботах
 
